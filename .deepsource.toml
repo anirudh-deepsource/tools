@@ -1,7 +1,5 @@
 version = 1
 
-test_patterns = ["<h1 onclick=alert(1)</h1>"]
-
 [[analyzers]]
-name = "php"
+name = "rust"
 enabled = true
