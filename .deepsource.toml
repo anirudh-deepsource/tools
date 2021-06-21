@@ -1,20 +1,7 @@
 version = 1
 
-[[analyzers]]
-name = "go"
-enabled = true
-
-  [analyzers.meta]
-  import_root = "github.com/anirudh-deepsource/tools"
+test_patterns = ["<h1 onclick=alert(1)</h1>"]
 
 [[analyzers]]
-name = "docker"
-enabled = true
-
-[[analyzers]]
-name = "javascript"
-enabled = true
-
-[[analyzers]]
-name = "shell"
+name = "php"
 enabled = true
